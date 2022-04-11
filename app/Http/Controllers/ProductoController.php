@@ -42,7 +42,7 @@ class ProductoController extends Controller
    
         return 'Código único:'.$request->input("coduni").'  
         <br> Nombre:'.$request->input("nombre").
-        ' <br> Categoría:'.$request->input("categoria").
+        '<br> Categoría:'.$request->input("categoria").
         '<br> Sucursal:'.$request->input("sucursal").
         '<br> Descripción:'.$request->input("descripcion").
         '<br> Cantidad:'.$request->input("cantidad").

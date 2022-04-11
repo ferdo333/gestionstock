@@ -3,25 +3,13 @@
 <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="UTF-8">
         <title>Gestionstock - @yield('title')</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <style>
-        .body{
-    width: auto;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-   
-}
-.links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-       
-       </style> 
+ 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" link rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"crossorigin="anonymous"></script>
+
+
  
     </head>
 <body class="container-fluid bg-3 text-center ">

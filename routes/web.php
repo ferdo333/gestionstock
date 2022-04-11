@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/index', function () {
-    return view('index');
+    return view('index'); 
 });
 
 Route::get('/consultar','ProductoController@consultar', function () {
