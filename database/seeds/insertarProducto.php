@@ -11,6 +11,7 @@ class insertarProducto extends Seeder
      */
     public function run()
     {
+        //insertamos un producto
         for ($i=1; $i <2 ; $i++){
             DB::table('producto')->insert(array(
              'nombre' => 'Polera',
